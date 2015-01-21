@@ -1,5 +1,6 @@
 {
   "name": "meteor-id-map",
+  "repository": { "type": "git", "url": "https://github.com/eface2face/meteor-id-map" },
   "version": "1.0.0",
   "description": "",
   "main": "id-map.js",
