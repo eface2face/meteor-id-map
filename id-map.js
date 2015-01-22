@@ -1,5 +1,6 @@
-var _ = require("lodash");
-var IdMap;
+module.exports = function(Meteor) {
+  var _ = Meteor.underscore;
+  var IdMap;
 IdMap = function (idStringify, idParse) {
   var self = this;
   self._map = {};
@@ -77,4 +78,5 @@ _.extend(IdMap.prototype, {
   }
 });
 
-module.exports = IdMap;
+  Meteor.IdMap = IdMap;
+};
