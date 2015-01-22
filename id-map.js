@@ -1,4 +1,5 @@
 var _ = require("lodash");
+var IdMap;
 IdMap = function (idStringify, idParse) {
   var self = this;
   self._map = {};
